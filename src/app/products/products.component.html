@@ -1,0 +1,27 @@
+<div class="form-group">
+  <input 
+    type="text" 
+    [formControl]="searchControl"
+    class="form-control"
+    placeholder="Search Product">
+</div>
+
+<div class="row mt-3">
+
+  <div class="col-md-4 mb-3" *ngFor="let prod of productsArr">
+
+    <div class="card">
+
+      <div class="card-header">
+        <h5>{{prod.title}}</h5>
+      </div>
+
+      <div class="card-body text-center">
+        <img [src]="prod.thumbnail" class="img-fluid">
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
