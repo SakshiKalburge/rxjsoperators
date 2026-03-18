@@ -5,7 +5,8 @@
 export const environment = {
   production: false,
   PRODUCT_URL:"https://dummyjson.com/products",
-  SHOWS_BASE_URL:"https://api.tvmaze.com"
+  SHOWS_BASE_URL:"https://api.tvmaze.com",
+  JSON_PLACE_HOLDER : 'https://jsonplaceholder.typicode.com/users'
 
 };
 

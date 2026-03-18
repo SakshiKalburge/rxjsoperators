@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { ShowSearchComponent } from './show-search/show-search.component';
+import { MaregMapUsersComponent } from './mareg-map-users/mareg-map-users.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path:'show-search',
     component:ShowSearchComponent
+  },
+  {
+    path:'merge-map-users',
+    component:MaregMapUsersComponent
   }
 ];
 

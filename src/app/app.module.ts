@@ -9,7 +9,8 @@ import { ProductsComponent } from './products/products.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { MaregMapUsersComponent } from './mareg-map-users/mareg-map-users.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component'
     NavbarComponent,
     ShowSearchComponent,
     ProductsComponent,
-    HomeComponent
+    HomeComponent,
+    MaregMapUsersComponent
   ],
   imports: [
     BrowserModule,

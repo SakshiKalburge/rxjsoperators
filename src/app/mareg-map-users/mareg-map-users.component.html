@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-12" *ngFor="let user of userandBlog">
+        <div class="card mb-3">
+            <div class="card-header">
+                {{user.name}}
+            </div>
+            <div class="card-body">
+               <ul class="list-group">
+                <li *ngFor="let blog of user.blogs"
+                class="list-group-item"
+                >{{blog.title}}
+
+                </li>
+               </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>
